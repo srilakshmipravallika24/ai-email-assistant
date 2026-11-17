@@ -407,9 +407,22 @@ app.get('/api/stats', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`=======================================================`);
-  console.log(`🚀 AI Email Assistant Backend running at:`);
-  console.log(`👉 http://localhost:${PORT}`);
-  console.log(`=======================================================`);
+// Explicit HTML routes for Serverless / Cloud Hosting (Vercel, Render)
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
+app.get('/watch-demo', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'watch-demo.html'));
+});
+
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`=======================================================`);
+    console.log(`🚀 AssistPilot AI Backend running at:`);
+    console.log(`👉 http://localhost:${PORT}`);
+    console.log(`=======================================================`);
+  });
+}
+
+module.exports = app;
