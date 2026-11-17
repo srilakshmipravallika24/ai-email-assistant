@@ -32,12 +32,12 @@ AssistPilot AI is a modern, intelligent email management platform designed speci
 
 ---
 
-## 📹 Official Demo Video
+## 📹 Official Demo Video (with Voiceover)
 
-A full high-definition (720p HD) walkthrough video demonstrating all core features has been generated:
-- **MP4 Video (Universal Playback):** [`demo_video.mp4`](file:///C:/Users/prava/.gemini/antigravity/scratch/ai-email-assistant/demo_video.mp4) (2.35 MB)
-- **WebM Video:** [`demo_video.webm`](file:///C:/Users/prava/.gemini/antigravity/scratch/ai-email-assistant/demo_video.webm)
-- **In-Browser Video Player:** Open `http://localhost:5000/watch-demo.html`
+A full high-definition (720p HD) walkthrough video demonstrating all core features with clear voiceover narration:
+- **Presentation Video with Audio:** [`AssistPilot_AI_Interview_Presentation.mp4`](file:///C:/Users/prava/.gemini/antigravity/scratch/ai-email-assistant/AssistPilot_AI_Interview_Presentation.mp4) (4.5 MB)
+- **Direct Video File:** [`demo_video.mp4`](file:///C:/Users/prava/.gemini/antigravity/scratch/ai-email-assistant/demo_video.mp4)
+- **In-Browser Video Player:** Open `http://localhost:5000/watch-demo.html` or `/watch-demo` on Vercel.
 
 To re-record the video at any time automatically:
 ```bash
