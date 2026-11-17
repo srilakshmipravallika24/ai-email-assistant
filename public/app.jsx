@@ -345,15 +345,6 @@ function App() {
 
         {/* Right Actions */}
         <div className="flex items-center space-x-3">
-          <a
-            href="/watch-demo.html"
-            target="_blank"
-            className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/20 transition flex items-center space-x-1.5"
-          >
-            <span>🎥</span>
-            <span>Watch Demo Video</span>
-          </a>
-
           <button
             onClick={() => {
               if (tourStep === null) {
